@@ -9,6 +9,10 @@ import { showNotification as show, checkWin } from './helpers/helpers';
 
 import './App.css';
 
+//This was done following a Code-along//
+//Hangman game made by codeSTACKr, Jesse Hall//
+
+
 const words = ['application', 'programming', 'interface', 'wizard'];
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
